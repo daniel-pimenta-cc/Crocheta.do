@@ -12,7 +12,7 @@
     <title>Crochetan.do</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div id="login" class="col-12 col-lg-4">
                    <div class="login_section">
@@ -34,23 +34,18 @@
             </div>
             <div id="mosaic" class="col-12 col-lg-8">
                     <div id="myMosaic">
-                            <img src="1.jpg" />
-                            <img src="2.jpg" />
-                            <img src="3.jpg" />
-                            <img src="4.jpg" />
-                            <img src="5.jpg" />
-                            <img src="6.jpg" />
-                            <img src="7.jpg" />
-                            <img src="8.jpg" />
+                        
+                        <a class="item withImage" href="" width="640" height="853" id="1" style="background-image: url('1.jpg');"><div class="overlay"><div class="texts"><h1>Cacto de amigurumi</h1><h2>Por Adrielly Reis</h2></div></div></a>
+                        <a class="item withImage" href="" width="960" height="719" id="2" style="background-image: url('2.jpg');"><div class="overlay"><div class="texts"><h1>Cobertor aconchegante</h1><h2>Por Fernanda Ribeiro</h2></div></div></a>
+                        <a class="item withImage" href="" width="640" height="853" id="3" style="background-image: url('3.jpg');"><div class="overlay"><div class="texts"><h1>Touca de coração</h1><h2>Por Roberto Alves</h2></div></div></a>
+                        <a class="item withImage" href="" width="640" height="853" id="4" style="background-image: url('4.jpg');"><div class="overlay"><div class="texts"><h1>Lhama de amigurumi</h1><h2>Por Ellen Correia</h2></div></div></a>
+                        <a class="item withImage" href="" width="960" height="719" id="5" style="background-image: url('5.jpg');"><div class="overlay"><div class="texts"><h1>Baleia de amigurumi</h1><h2>Por Antonio Silva</h2></div></div></a>
+                        <a class="item withImage" href="" width="640" height="853" id="6" style="background-image: url('6.jpg');"><div class="overlay"><div class="texts"><h1>Bolsa de quadrados com flores</h1><h2>Por Victoria Martins</h2></div></div></a>
+                        <a class="item withImage" href="" width="960" height="640" id="7" style="background-image: url('7.jpg');"><div class="overlay"><div class="texts"><h1>Pokemons de amigurumi</h1><h2>Por Daniel Pimenta</h2></div></div></a>
+                        <a class="item withImage" href="" width="640" height="853" id="8" style="background-image: url('8.jpg');"><div class="overlay"><div class="texts"><h1>Cobertor</h1><h2>Por Juilia Silva</h2></div></div></a>
                             <script>
                             $('#myMosaic').Mosaic({
-                             maxRowHeight: 800,
-                            refitOnResize: true,
-                            refitOnResizeDelay: false,
-                            defaultAspectRatio: 0.5,
-                            maxRowHeightPolicy: 'crop',
-                            highResImagesWidthThreshold: 1000,
-                            responsiveWidthThreshold: 500
+                                innerGap: 5
                             });
                             </script>
                     </div>
